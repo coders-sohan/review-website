@@ -4,7 +4,7 @@ import logo from "../../img/educlub.png";
 
 const Header = () => {
 	return (
-		<header className=" bg-gray-100 border-b border-gray-300">
+		<header className=" bg-gray-50 border-b border-gray-300">
 			<div className="container mx-auto flex flex-wrap py-3 flex-col md:flex-row items-center">
 				<NavLink to="/">
 					<img src={logo} alt="logo" />

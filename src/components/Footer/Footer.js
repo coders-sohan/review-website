@@ -4,7 +4,7 @@ import logo from "../../img/educlub.png";
 
 const Footer = () => {
 	return (
-		<footer className=" bg-gray-100 border-t border-gray-300">
+		<footer className=" bg-gray-50 border-t border-gray-300">
 			<div className="container py-4 mx-auto flex items-center sm:flex-row flex-col">
 				<NavLink to="/">
 					<img src={logo} className="w-32" alt="logo" />
