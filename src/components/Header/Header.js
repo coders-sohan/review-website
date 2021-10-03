@@ -7,7 +7,7 @@ const Header = () => {
 		<header className=" bg-gray-100 border-b border-gray-300">
 			<div className="container mx-auto flex flex-wrap py-3 flex-col md:flex-row items-center">
 				<NavLink to="/">
-					<img src={logo} alt="" />
+					<img src={logo} alt="logo" />
 				</NavLink>
 				<nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
 					<NavLink
