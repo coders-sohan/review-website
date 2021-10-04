@@ -34,5 +34,23 @@
 		"category": "React JS",
 		"desc": "React.js is THE most popular JavaScript library you can use and learn these days to build modern, reactive user interfaces for the web.",
 		"img": "https://education-review-website-img.netlify.app/course-4.jpg"
+	},
+	{
+		"name": "Bootstrap 5 Essential Training : With Projects",
+		"price": 89.99,
+		"student": "1,333",
+		"star": 4.4,
+		"category": "Bootstrap",
+		"desc": "Welcome to bootstrap 5 essential training. In this course, you will learn bootstrap 5step by step. After completing the series, I will create a project so you know how to create a project with the skills, and If I missed something on the course it will cover also the project. Always after learning a project we should create some project for solid learning. This course covers all the different parts of the latest version of the world's most popular front-end framework, Bootstrap 5.",
+		"img": "https://education-review-website-img.netlify.app/course-5.jpg"
+	},
+	{
+		"name": "Tailwind CSS - Step by Step",
+		"price": 89.99,
+		"student": "168",
+		"star": 4.8,
+		"category": "Tailwind",
+		"desc": "Tailwind CSS is a modern and increasingly popular framework that is changing the way we work with CSS. This course covers all the different parts of the latest version of the world's rising most popular front-end framework, Tailwind.",
+		"img": "https://education-review-website-img.netlify.app/course-6.jpg"
 	}
 ]
