@@ -1,5 +1,6 @@
 [
 	{
+		"key":"c01",
 		"name": "Learn HTML5 Programming From Scratch",
 		"price": 100,
 		"student": "318,382",
@@ -9,6 +10,7 @@
 		"img": "https://education-review-website-img.netlify.app/course-1.jpg"
 	},
 	{
+		"key":"c02",
 		"name": "Build Responsive Real World Websites with CSS3",
 		"price": 89.99,
 		"student": "37,942",
@@ -18,6 +20,7 @@
 		"img": "https://education-review-website-img.netlify.app/course-2.jpg"
 	},
 	{
+		"key":"c03",
 		"name": "The Complete JavaScript Course 2021",
 		"price": 89.99,
 		"student": "506,607",
@@ -27,6 +30,7 @@
 		"img": "https://education-review-website-img.netlify.app/course-3.jpg"
 	},
 	{
+		"key":"c04",
 		"name": "React - The Complete Guide",
 		"price": 100,
 		"student": "453,219",
@@ -36,6 +40,7 @@
 		"img": "https://education-review-website-img.netlify.app/course-4.jpg"
 	},
 	{
+		"key":"c05",
 		"name": "Bootstrap 5 Essential Training : With Projects",
 		"price": 89.99,
 		"student": "1,333",
@@ -45,6 +50,7 @@
 		"img": "https://education-review-website-img.netlify.app/course-5.jpg"
 	},
 	{
+		"key":"c06",
 		"name": "Tailwind CSS - Step by Step",
 		"price": 89.99,
 		"student": "168",

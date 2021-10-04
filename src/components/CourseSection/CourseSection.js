@@ -1,16 +1,11 @@
 import React from "react";
 
-const CourseSection = () => {
+const CourseSection = (props) => {
+	console.log(props);
+	const { name, price, student, star, category, desc, img } = props.course;
 	return (
 		<>
-			<div class="text-center mb-20">
-				<h1 class="sm:text-4xl text-3xl font-semibold title-font text-gray-900 mb-4">
-				<span className="text-red-500">Featured Courses</span><br /><span className="text-xl tracking-widest font-semibold">By Professional Instructor</span>
-				</h1>
-				<div class="flex mt-6 justify-center">
-					<div class="w-20 h-1 rounded-full bg-indigo-500 inline-flex"></div>
-				</div>
-			</div>
+			
 			<div class="flex flex-wrap -m-4">
 				<div class="p-4 md:w-1/3">
 					<div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
@@ -31,7 +26,10 @@ const CourseSection = () => {
 								microdosing tousled waistcoat.
 							</p>
 							<div class="flex items-center flex-wrap ">
-								<a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="/courses">
+								<a
+									class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+									href="/courses"
+								>
 									Learn More
 									<svg
 										class="w-4 h-4 ml-2"
