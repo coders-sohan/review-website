@@ -3,6 +3,7 @@ import React from "react";
 const CourseHeader = () => {
 	return (
 		<>
+			{/* course header */}
 			<div className="text-center mb-20">
 				<h1 className="sm:text-4xl text-3xl font-semibold title-font text-gray-900 mb-4">
 					<span className="text-red-500">Featured Courses</span>

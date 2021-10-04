@@ -3,6 +3,7 @@ import React from "react";
 const Contact = () => {
 	return (
 		<>
+			{/* contact section style */}
 			<section>
 				<div className="container mx-auto py-14">
 					<div className="text-center mb-10">

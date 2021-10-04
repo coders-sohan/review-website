@@ -47,6 +47,7 @@ const About = () => {
 			</section>
 			<section className="bg-gray-50 body-font">
 				<div className="container px-5 py-14 mx-auto">
+					{/* about section components here */}
 					<AboutSection></AboutSection>
 				</div>
 			</section>

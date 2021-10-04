@@ -6,6 +6,7 @@ const CourseSection = (props) => {
 	const { name, price, student, star, category, desc, img } = props.course;
 	return (
 		<>
+			{/* show course fot home page */}
 			<div className="p-4 md:w-1/3">
 				<div className="h-full border-2 border-gray-300 hover:border-indigo-600 border-opacity-60 rounded-lg overflow-hidden hover:shadow-lg transition duration-300 ease-linear">
 					<img

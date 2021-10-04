@@ -12,8 +12,10 @@ const Courses = () => {
 	return (
 		<section>
 			<div className="container px-5 py-10 mx-auto">
+				{/* show course page title */}
 				<CourseHeader></CourseHeader>
 				<div className="flex flex-wrap -m-4">
+					{/* map for course product */}
 					{courses.map((course) => (
 						<CourseSection key={course.key} course={course}></CourseSection>
 					))}

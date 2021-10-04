@@ -3,6 +3,7 @@ import React from "react";
 const AboutSection = () => {
 	return (
 		<>
+			{/* about section style */}
 			<div className="flex flex-col text-center w-full mb-10">
 				<h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
 					We Are Proud
@@ -23,7 +24,7 @@ const AboutSection = () => {
 				</div>
 				<div className="p-4 md:w-1/4 sm:w-1/2 w-full">
 					<div className="border-2 border-gray-200 hover:border-indigo-600 transition duration-300 ease-linear px-4 py-6 rounded-lg">
-                    <i class="fas fa-chalkboard-teacher text-5xl text-indigo-500 my-3"></i>
+						<i class="fas fa-chalkboard-teacher text-5xl text-indigo-500 my-3"></i>
 						<h2 className="title-font font-medium text-3xl text-gray-900">
 							6K
 						</h2>
@@ -32,7 +33,7 @@ const AboutSection = () => {
 				</div>
 				<div className="p-4 md:w-1/4 sm:w-1/2 w-full">
 					<div className="border-2 border-gray-200 hover:border-indigo-600 transition duration-300 ease-linear px-4 py-6 rounded-lg">
-                    <i class="fas fa-clock text-5xl text-indigo-500 my-3"></i>
+						<i class="fas fa-clock text-5xl text-indigo-500 my-3"></i>
 						<h2 className="title-font font-medium text-3xl text-gray-900">
 							5M+
 						</h2>
@@ -41,7 +42,7 @@ const AboutSection = () => {
 				</div>
 				<div className="p-4 md:w-1/4 sm:w-1/2 w-full">
 					<div className="border-2 border-gray-200 hover:border-indigo-600 transition duration-300 ease-linear px-4 py-6 rounded-lg">
-                    <i class="fas fa-globe text-5xl text-indigo-500 my-3"></i>
+						<i class="fas fa-globe text-5xl text-indigo-500 my-3"></i>
 						<h2 className="title-font font-medium text-3xl text-gray-900">
 							50+
 						</h2>

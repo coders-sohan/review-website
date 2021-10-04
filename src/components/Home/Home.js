@@ -11,7 +11,7 @@ const Home = () => {
 			.then((res) => res.json())
 			.then((data) => setCourses(data));
 	}, []);
-	const sliceCoursesData = courses.slice(0,6);
+	const sliceCoursesData = courses.slice(0, 6);
 	return (
 		<>
 			{/* Hero section */}
@@ -25,6 +25,7 @@ const Home = () => {
 				<div className="container px-5 py-20 mx-auto">
 					<CourseHeader></CourseHeader>
 					<div className="flex flex-wrap -m-4">
+						{/* map for home page courses */}
 						{sliceCoursesData.map((course) => (
 							<CourseSection key={course.key} course={course}></CourseSection>
 						))}
@@ -34,7 +35,9 @@ const Home = () => {
 							className="inline-flex items-center bg-indigo-500 text-white border-0 py-2 px-4 focus:ring-2 ring-indigo-700 ring-offset-2 hover:bg-indigo-700 hover:text-white rounded text-base mt-4 md:mt-0 transition duration-300 ease-linear"
 							to="/courses"
 						>
-							<span className="mr-2 font-semibold text-lg">Load More Courses</span>
+							<span className="mr-2 font-semibold text-lg">
+								Load More Courses
+							</span>
 							<span>
 								<i className="fas fa-sync-alt text-sm"></i>
 							</span>

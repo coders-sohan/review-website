@@ -6,6 +6,7 @@ const Header = () => {
 	return (
 		<header className=" bg-gray-50 border-b border-gray-300">
 			<div className="container mx-auto flex flex-wrap py-3 flex-col md:flex-row items-center">
+				{/* create a simple navbar */}
 				<NavLink to="/">
 					<img src={logo} alt="logo" />
 				</NavLink>
