@@ -15,7 +15,7 @@ const Contact = () => {
 					</div>
 					<div className="py-5 flex items-center">
 						<div className="w-2/4 p-10 ">
-							<div className="bg-gray-100 p-3 rounded-md text-center border-2 hover:border-indigo-600 transition duration-300 ease-linear">
+							<div className="bg-gray-100 p-3 rounded-md text-center border-2">
 								<h1 className="text-3xl font-bold">Address -</h1>
 								<p className="text-lg mt-3 text-indigo-500 font-semibold">
 									2B/73, Central Park
@@ -24,7 +24,7 @@ const Contact = () => {
 									California, USA
 								</p>
 							</div>
-							<div className="bg-gray-100 p-3 my-5 rounded-md text-center border-2 hover:border-indigo-600 transition duration-300 ease-linear">
+							<div className="bg-gray-100 p-3 my-5 rounded-md text-center border-2">
 								<h1 className="text-3xl font-bold">Email -</h1>
 								<div className="mt-3">
 									<a
@@ -35,7 +35,7 @@ const Contact = () => {
 									</a>
 								</div>
 							</div>
-							<div className="bg-gray-100 p-3 my-5 rounded-md text-center border-2 hover:border-indigo-600 transition duration-300 ease-linear">
+							<div className="bg-gray-100 p-3 my-5 rounded-md text-center border-2">
 								<h1 className="text-3xl font-bold">Phone -</h1>
 								<p className="text-lg mt-3 text-indigo-500 font-semibold">
 									+123-456-789-098

@@ -14,7 +14,7 @@ const HeroSection = () => {
 					</span>
 				</h1>
 				<h1 className="font-semibold text-2xl text-black py-5">
-					Unlimited access to all 60+ instructors.
+					Unlimited access to all 6000+ instructors.
 				</h1>
 				<p className="mb-8 text-lg font-normal text-gray-500 leading-relaxed">
 					Study any topic, anytime. Choose from thousands of expert-led courses
