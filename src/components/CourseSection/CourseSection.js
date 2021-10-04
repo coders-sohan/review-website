@@ -35,7 +35,7 @@ const CourseSection = (props) => {
 						</h1>
 						<p className="leading-relaxed mb-3">{desc}</p>
 						<h1 className="text-xl font-semibold py-1">
-							<span className="text-black">Price:</span>
+							<span className="text-red-500">Price:</span>
 							<span className="text-gray-600 ml-3">${price}</span>
 						</h1>
 						<div className="flex items-center flex-wrap mt-6">
