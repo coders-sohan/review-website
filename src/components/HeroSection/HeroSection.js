@@ -23,13 +23,13 @@ const HeroSection = () => {
 					<button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded text-lg focus:ring-2 ring-offset-2 ring-indigo-500 transition duration-300 ease-linear">
 						<span className="mr-3">Enroll Now</span>
 						<span>
-							<i class="fas fa-check-double text-base"></i>
+							<i className="fas fa-check-double text-base"></i>
 						</span>
 					</button>
 					<button className="ml-4 inline-flex text-white bg-gray-800 border-0 py-2 px-5 focus:outline-none hover:bg-gray-600 rounded text-lg focus:ring-2 ring-offset-2 ring-gray-600 transition duration-300 ease-linear">
 						<span className="mr-3">Login</span>
 						<span>
-							<i class="fas fa-sign-in-alt text-base"></i>
+							<i className="fas fa-sign-in-alt text-base"></i>
 						</span>
 					</button>
 				</div>

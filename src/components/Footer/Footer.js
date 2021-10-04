@@ -19,7 +19,7 @@ const Footer = () => {
 						target="_blank"
 						rel="noreferrer noopener"
 					>
-						<i class="fab fa-facebook-square"></i>
+						<i className="fab fa-facebook-square"></i>
 					</a>
 					<a
 						className="ml-5 text-indigo-500 text-2xl hover:text-red-400 transition duration-300 ease-linear"
@@ -27,7 +27,7 @@ const Footer = () => {
 						target="_blank"
 						rel="noreferrer noopener"
 					>
-						<i class="fab fa-twitter-square"></i>
+						<i className="fab fa-twitter-square"></i>
 					</a>
 					<a
 						className="ml-5 text-indigo-500 text-2xl hover:text-red-400 transition duration-300 ease-linear"
@@ -35,7 +35,7 @@ const Footer = () => {
 						target="_blank"
 						rel="noreferrer noopener"
 					>
-						<i class="fab fa-linkedin"></i>
+						<i className="fab fa-linkedin"></i>
 					</a>
 					<a
 						className="ml-5 text-indigo-500 text-2xl hover:text-red-400 transition duration-300 ease-linear"
@@ -43,7 +43,7 @@ const Footer = () => {
 						target="_blank"
 						rel="noreferrer noopener"
 					>
-						<i class="fab fa-github-square"></i>
+						<i className="fab fa-github-square"></i>
 					</a>
 				</span>
 			</div>
