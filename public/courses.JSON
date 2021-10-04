@@ -1,0 +1,83 @@
+[
+	{
+		"name": "Learn HTML5 Programming From Scratch",
+		"price": 100,
+		"student": "318,382",
+		"star": 4.4,
+		"category": "HTML5",
+		"desc": "HTML5 is one of the hot web technologies and is widely gaining acceptance across mobile and web. In our course, you get a complete resource that can get you started on application development for HTML5. In our course, you work on actual examples and go through important concepts required for thorough knowledge.",
+		"img": "https://education-review-website-img.netlify.app/course-1.jpg"
+	},
+	{
+		"name": "Build Responsive Real World Websites with CSS3",
+		"price": 89.99,
+		"student": "37,942",
+		"star": 4.7,
+		"category": "CSS3",
+		"desc": "You can launch a new career in web development by simply learning HTML and CSS. You don't need a university degree or any paid software, everything can be learned for free with free software and a few hours of your time. This course also comes with my full CSS Masterclass e-book, as an added bonus!",
+		"img": "https://education-review-website-img.netlify.app/course-2.jpg"
+	},
+	{
+		"name": "The Complete JavaScript Course 2021",
+		"price": 89.99,
+		"student": "506,607",
+		"star": 4.7,
+		"category": "JS",
+		"desc": "JavaScript is the most popular programming language in the world. It powers the entire modern web. It provides millions of high-paying jobs all over the world.",
+		"img": "https://education-review-website-img.netlify.app/course-3.jpg"
+	},
+	{
+		"name": "React - The Complete Guide",
+		"price": 100,
+		"student": "453,219",
+		"star": 4.5,
+		"category": "React JS",
+		"desc": "React.js is THE most popular JavaScript library you can use and learn these days to build modern, reactive user interfaces for the web.",
+		"img": "https://education-review-website-img.netlify.app/course-4.jpg"
+	},
+	{
+		"name": "Bootstrap 5 Essential Training : With Projects",
+		"price": 89.99,
+		"student": "1,333",
+		"star": 4.4,
+		"category": "Bootstrap",
+		"desc": "Welcome to bootstrap 5 essential training. In this course, you will learn bootstrap 5step by step. After completing the series, I will create a project so you know how to create a project with the skills, and If I missed something on the course it will cover also the project. Always after learning a project we should create some project for solid learning. This course covers all the different parts of the latest version of the world's most popular front-end framework, Bootstrap 5.",
+		"img": "https://education-review-website-img.netlify.app/course-5.jpg"
+	},
+	{
+		"name": "Tailwind CSS - Step by Step",
+		"price": 89.99,
+		"student": "168",
+		"star": 4.8,
+		"category": "Tailwind",
+		"desc": "Tailwind CSS is a modern and increasingly popular framework that is changing the way we work with CSS. This course covers all the different parts of the latest version of the world's rising most popular front-end framework, Tailwind.",
+		"img": "https://education-review-website-img.netlify.app/course-6.jpg"
+	},
+	{
+		"name": "Implement High Fidelity Designs with Material-UI",
+		"price": 89.99,
+		"student": "10,320",
+		"star": 4.5,
+		"category": "MUI",
+		"desc": "Take your web development skills to a whole new level and separate yourself from the average React developer by gaining the confidence to build professionally designed applications!",
+		"img": "https://education-review-website-img.netlify.app/course-7.jpg"
+	},
+	{
+		"name": "Next.js & React - The Complete Guide",
+		"price": 89.99,
+		"student": "22,500",
+		"star": 4.6,
+		"category": "Next JS",
+		"desc": "NextJS makes building fullstack React apps (frontend + backend code combined in one project) extremely easy as well! Blend client-side and server-side code and build a NodeJS-based API side-by-side with your frontend React apps. It's a breeze with NextJS!",
+		"img": "https://education-review-website-img.netlify.app/course-8.jpg"
+	},
+	{
+		"name": "Vue - The Complete Guide",
+		"price": 125.87,
+		"student": "173,204",
+		"star": 4.9,
+		"category": "Vue JS",
+		"desc": "VueJS is the shooting star in the world of JavaScript frameworks - it simply is amazing! This bestselling course teaches the latest version of Vue from the ground up and in great detail. We'll cover all the core basics but we'll not stop thereafter - this course also dives into advanced concepts like the Composition API introduced with Vue 3.",
+		"img": "https://education-review-website-img.netlify.app/course-9.jpg"
+	}
+]

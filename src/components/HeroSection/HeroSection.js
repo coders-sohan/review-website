@@ -15,7 +15,7 @@ const HeroSection = () => {
 				<h1 className="font-semibold text-2xl text-black py-5">
 					Unlimited access to all 60+ instructors.
 				</h1>
-				<p className="mb-8 text-xl font-normal text-gray-600 leading-relaxed">
+				<p className="mb-8 text-lg font-normal text-gray-500 leading-relaxed">
 					Study any topic, anytime. Choose from thousands of expert-led courses
 					now. <br /> You`re guaranteed to find something that`s right for you.
 				</p>

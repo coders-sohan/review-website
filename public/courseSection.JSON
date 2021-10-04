@@ -1,0 +1,38 @@
+[
+	{
+		"name": "Learn HTML5 Programming From Scratch",
+		"price": 100,
+		"student": "318,382",
+		"star": 4.4,
+		"category": "HTML5",
+		"desc": "HTML5 is one of the hot web technologies and is widely gaining acceptance across mobile and web. In our course, you get a complete resource that can get you started on application development for HTML5. In our course, you work on actual examples and go through important concepts required for thorough knowledge.",
+		"img": "https://education-review-website-img.netlify.app/course-1.jpg"
+	},
+	{
+		"name": "Build Responsive Real World Websites with CSS3",
+		"price": 89.99,
+		"student": "37,942",
+		"star": 4.7,
+		"category": "CSS3",
+		"desc": "You can launch a new career in web development by simply learning HTML and CSS. You don't need a university degree or any paid software, everything can be learned for free with free software and a few hours of your time. This course also comes with my full CSS Masterclass e-book, as an added bonus!",
+		"img": "https://education-review-website-img.netlify.app/course-2.jpg"
+	},
+	{
+		"name": "The Complete JavaScript Course 2021",
+		"price": 89.99,
+		"student": "506,607",
+		"star": 4.7,
+		"category": "JS",
+		"desc": "JavaScript is the most popular programming language in the world. It powers the entire modern web. It provides millions of high-paying jobs all over the world.",
+		"img": "https://education-review-website-img.netlify.app/course-3.jpg"
+	},
+	{
+		"name": "React - The Complete Guide",
+		"price": 100,
+		"student": "453,219",
+		"star": 4.5,
+		"category": "React JS",
+		"desc": "React.js is THE most popular JavaScript library you can use and learn these days to build modern, reactive user interfaces for the web.",
+		"img": "https://education-review-website-img.netlify.app/course-4.jpg"
+	}
+]

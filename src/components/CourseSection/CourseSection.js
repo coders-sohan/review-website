@@ -5,7 +5,7 @@ const CourseSection = () => {
 		<>
 			<div class="text-center mb-20">
 				<h1 class="sm:text-4xl text-3xl font-semibold title-font text-gray-900 mb-4">
-					Ours <span className="text-red-500">courses</span>
+				<span className="text-red-500">Featured Courses</span><br /><span className="text-xl tracking-widest font-semibold">By Professional Instructor</span>
 				</h1>
 				<div class="flex mt-6 justify-center">
 					<div class="w-20 h-1 rounded-full bg-indigo-500 inline-flex"></div>
@@ -31,7 +31,7 @@ const CourseSection = () => {
 								microdosing tousled waistcoat.
 							</p>
 							<div class="flex items-center flex-wrap ">
-								<a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+								<a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="/courses">
 									Learn More
 									<svg
 										class="w-4 h-4 ml-2"
