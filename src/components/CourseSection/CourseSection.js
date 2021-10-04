@@ -9,7 +9,7 @@ const CourseSection = (props) => {
 			<div className="p-4 md:w-1/3">
 				<div className="h-full border-2 border-gray-300 hover:border-indigo-600 border-opacity-60 rounded-lg overflow-hidden hover:shadow-lg transition duration-300 ease-linear">
 					<img
-						className="lg:h-48 md:h-36 w-full object-cover object-center"
+						className="lg:h-60 md:h-36 w-full object-cover object-center"
 						src={img}
 						alt={name}
 					/>

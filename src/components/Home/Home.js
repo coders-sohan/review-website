@@ -1,15 +1,17 @@
 import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
+import CourseHeader from "../CourseHeader/CourseHeader";
 import CourseSection from "../CourseSection/CourseSection";
 import HeroSection from "../HeroSection/HeroSection";
 
 const Home = () => {
 	const [courses, setCourses] = useState([]);
 	useEffect(() => {
-		fetch("./courseSection.JSON")
+		fetch("./courses.JSON")
 			.then((res) => res.json())
 			.then((data) => setCourses(data));
 	}, []);
+	const sliceCoursesData = courses.slice(0,6);
 	return (
 		<>
 			{/* Hero section */}
@@ -21,20 +23,9 @@ const Home = () => {
 			{/* course section */}
 			<section className="bg-gray-100">
 				<div className="container px-5 py-20 mx-auto">
-					<div className="text-center mb-20">
-						<h1 className="sm:text-4xl text-3xl font-semibold title-font text-gray-900 mb-4">
-							<span className="text-red-500">Featured Courses</span>
-							<br />
-							<span className="text-lg tracking-widest font-semibold">
-								By Professional Instructor
-							</span>
-						</h1>
-						<div className="flex mt-6 justify-center">
-							<div className="w-20 h-1 rounded-full bg-indigo-500 inline-flex"></div>
-						</div>
-					</div>
+					<CourseHeader></CourseHeader>
 					<div className="flex flex-wrap -m-4">
-						{courses.map((course) => (
+						{sliceCoursesData.map((course) => (
 							<CourseSection key={course.key} course={course}></CourseSection>
 						))}
 					</div>
@@ -43,7 +34,7 @@ const Home = () => {
 							className="inline-flex items-center bg-indigo-500 text-white border-0 py-2 px-4 focus:ring-2 ring-indigo-700 ring-offset-2 hover:bg-indigo-700 hover:text-white rounded text-base mt-4 md:mt-0 transition duration-300 ease-linear"
 							to="/courses"
 						>
-							<span className="mr-2">Load More</span>
+							<span className="mr-2 font-semibold text-lg">Load More Courses</span>
 							<span>
 								<i className="fas fa-sync-alt text-sm"></i>
 							</span>
