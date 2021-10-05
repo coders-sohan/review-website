@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import CourseHeader from "../CourseHeader/CourseHeader";
 import CourseSection from "../CourseSection/CourseSection";
 import HeroSection from "../HeroSection/HeroSection";
+import OrdinarySection from "../OrdinarySection/OrdinarySection";
 
 const Home = () => {
 	const [courses, setCourses] = useState([]);
@@ -20,8 +21,14 @@ const Home = () => {
 					<HeroSection></HeroSection>
 				</div>
 			</section>
+			{/* ordinary section */}
+			<section className="bg-gray-50">
+				<div className="container mx-auto py-16">
+					<OrdinarySection></OrdinarySection>
+				</div>
+			</section>
 			{/* course section */}
-			<section className="bg-gray-100">
+			<section className="bg-white">
 				<div className="container px-5 py-20 mx-auto">
 					<CourseHeader></CourseHeader>
 					<div className="flex flex-wrap -m-4">
